@@ -7,5 +7,5 @@ class CashRegister
     @@tally = [] 
   end 
   
-  def 
+  def add_item()
 end 
