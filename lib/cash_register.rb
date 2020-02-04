@@ -9,6 +9,6 @@ class CashRegister
   
   def add_item(title, price, quantity = 1)
     @total += price * quantity 
-    @@items.fill()
+    @@items.fill(title, @@items.size, quantity)
   end 
 end 
