@@ -13,5 +13,5 @@ class CashRegister
     @@tally << (price * quantity)
   end 
   
-  def aplly_discount
+  def apply_discount
 end 
