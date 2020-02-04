@@ -5,6 +5,7 @@ class CashRegister
     self.discount = 20 
     @@items = [] 
     @@tally = [] 
-    
   end 
+  
+  def 
 end 
