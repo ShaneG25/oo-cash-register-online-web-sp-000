@@ -18,5 +18,6 @@ class CashRegister
       return "There is no discount to apply."
     else 
       @total *= 0.8 
+      return "After the discount, the total comes to "
   end 
 end 
